@@ -1,6 +1,6 @@
 # Dell-Poweredge-ipmitool
 
-bash scripts for manually controlling fan speed on Dell PowerEdge Servers 
+bash scripts for manually controlling fan speed on Dell PowerEdge Servers. 
 Please note that the fans will run at 100% until you run the fans20.sh script.
 I am working on making the script run at boot.
 
