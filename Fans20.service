@@ -1,0 +1,12 @@
+[Unit]
+Description=Fans 20
+After=network-online.target.wants
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /root/ipmitool.sh
+
+[Install]
+WantedBy=multi-user.target
