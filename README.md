@@ -1,4 +1,6 @@
-# Dell-Poweredge-ipmitool
+# Dell-PowerEdge-ipmitool
+
+These scripts create a systemd unit and a script to make a Dell PowerEdge's fans always run at 20%
 
 This script requires the package ipmitool
 
