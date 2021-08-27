@@ -5,6 +5,8 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=simple
+
+# ExecStart=/bin/bash /etc/systemd/user/libexec/ipmitool.sh
 ExecStart=/bin/bash /etc/systemd/user/libexec/ipmitool.sh
 
 [Install]
