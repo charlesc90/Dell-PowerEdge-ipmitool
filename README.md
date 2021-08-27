@@ -23,7 +23,7 @@ Then
     chmod +x fans20exec.sh
     sudo ./fans20exec.sh
     
-Open a text editor such as vim or nano and paste fans20service.sh - it puts the systemd unit file in the proper place.
+Open a text editor such as vim or nano and paste fans20service.sh then save - it puts the systemd unit file in the proper place.
 
     chmod +x fans20service.sh
     sudo ./fans20service.sh
