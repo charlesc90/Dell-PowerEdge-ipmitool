@@ -1,13 +1,10 @@
 [Unit]
 Description=Fans 20
-After=network-online.target.wants
 StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-
-# ExecStart=/bin/bash /etc/systemd/user/libexec/ipmitool.sh
-ExecStart=/bin/bash /etc/systemd/user/libexec/ipmitool.sh
+ExecStart=/bin/bash /usr/bin/ipmitool.sh
 
 [Install]
 WantedBy=multi-user.target
