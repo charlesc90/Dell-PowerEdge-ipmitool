@@ -17,15 +17,13 @@ To install ipmitool on your PowerEdge, use your package manager.
     [debian-based distros]
     sudo apt install ipmitool
     
-These scripts need to be run as the root user. You can -
-
-    su - root
-
-or
-
-    sudo bash
+Open a text editor such as vim or nano and paste fans20exec.sh then save - it puts the script to power the fans at 20% in the directory that systemd looks for unit files.
+Then
     
-First run fans20exec.sh - it puts the script to power the fans at 20% in
-  the directory that systemd looks for unit files.
- 
-Then run fans20service.sh - it puts the systemd unit file in the proper place.
+    chmod +x fans20exec.sh
+    sudo ./fans20exec.sh
+    
+Open a text editor such as vim or nano and paste fans20service.sh - it puts the systemd unit file in the proper place.
+
+    chmod +x fans20service.sh
+    sudo ./fans20service.sh
