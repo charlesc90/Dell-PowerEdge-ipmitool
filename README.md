@@ -11,3 +11,6 @@ To install ipmitool on your PowerEdge, use your package manager.
     
     [opensuse]
     sudo zypper install ipmitool
+    
+    [debian-based distros]
+    sudo apt install ipmitool
