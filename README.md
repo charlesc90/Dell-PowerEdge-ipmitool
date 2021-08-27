@@ -9,4 +9,5 @@ This script requires the package ipmitool
 To install ipmitool on your PowerEdge, use your package manager
 
 Example for Fedora:
-sudo dnf install ipmitool
+
+  sudo dnf install ipmitool
