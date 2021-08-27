@@ -5,8 +5,7 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-User=root
-ExecStart=/bin/bash /root/ipmitool.sh
+ExecStart=/bin/bash /etc/systemd/user/libexec/ipmitool.sh
 
 [Install]
 WantedBy=multi-user.target
